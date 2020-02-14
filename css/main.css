@@ -103,7 +103,15 @@ h1, .subhead {
     width: 14%;
 }
 
-.blue-container ul li:nth-child(2) img {
+.blue-container ul li .socio {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 0 10px 30px 1px rgba(0, 0, 0, .3);
+    margin: 0 0 40px;
+}
+
+#imagen-problema {
     width: 8%;
 }
 
@@ -254,11 +262,16 @@ nav ul li a:hover {
         width: 10%;
     }
 
+    #imagen-problema {
+        width: 11%;
+        margin-top: -6px;
+    }
+    /*
     .blue-container ul li:nth-child(2) img {
         width: 11%;
         margin-top: -6px;
     }
-    
+    */
     .blue-container ul {
         display: flex;
         margin-top: -1em;
@@ -355,11 +368,6 @@ nav ul li a:hover {
 }
 
 @media only screen and (min-width: 1600px) {
-    .subhead {
-        width: 40%;
-        margin: 5em auto 4em 15%;
-    }
-
     .container {
         width: 70%;
     }
@@ -384,8 +392,14 @@ nav ul li a:hover {
         width: 15%;
     }
 
+    #imagen-problema {
+        width: 8%;
+        margin-top: -4px;
+    }
+    /*
     .blue-container ul li:nth-child(2) img {
         width: 8%;
         margin-top: -4px;
     }
+    */
 }
