@@ -23,7 +23,7 @@ ul {
 }
 
 .logo {
-    width: 130px;
+    width: 100px;
 }
 
 .hide-mobile {
@@ -42,7 +42,12 @@ header {
 
 .server {
     width: 70%;
-    margin: 2em auto 2em 25%;
+    margin: 2em auto 2em;
+}
+
+.knowledge {
+    width: 100%;
+    margin: 1em auto 1em;
 }
 
 h1, .subhead {
@@ -109,6 +114,11 @@ h1, .subhead {
     border-radius: 50%;
     box-shadow: 0 10px 30px 1px rgba(0, 0, 0, .3);
     margin: 0 0 40px;
+}
+
+.blue-container ul li .map {
+    width: 100%;
+    margin: 1em auto 1em;
 }
 
 #imagen-problema {
@@ -276,6 +286,7 @@ nav ul li a:hover {
         display: flex;
         margin-top: -1em;
         align-items: center;
+        align-content: space-between;
     }
 
     .blue-container ul li {
