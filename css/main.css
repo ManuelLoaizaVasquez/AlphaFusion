@@ -275,9 +275,6 @@ nav ul li a:hover {
 }
 
 .lista-de-contenido .lista-de-cursos .curso .etiqueta {
-    box-shadow: 8px 0 0 0 #20ad2b;
-    background-color: #34ed43;
-
     height: 100%;
     width: 30px;
     border-radius: 0 5px 5px 0;
@@ -288,6 +285,31 @@ nav ul li a:hover {
     font-weight: 600;
     white-space: nowrap;
     -webkit-box-direction: normal;
+}
+
+#curso-matematicas .curso .etiqueta {
+    box-shadow: 8px 0 0 0 #110f0f;
+    background-color: #383535;
+}
+
+#curso-fisica .curso .etiqueta {
+    box-shadow: 8px 0 0 0 #5a20c6;
+    background-color: #af51ef;
+}
+
+#curso-cs .curso .etiqueta {
+    box-shadow: 8px 0 0 0 #257dbc;
+    background-color: #51adef;
+}
+
+#curso-quimica .curso .etiqueta {
+    box-shadow: 8px 0 0 0 #20ad2b;
+    background-color: #34ed43;
+}
+
+#curso-economia .curso .etiqueta {
+    box-shadow: 8px 0 0 0 #c62121;
+    background-color: #ef5151;
 }
 
 @media only screen and (min-width: 650px) {
