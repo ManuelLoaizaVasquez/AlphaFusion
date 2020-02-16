@@ -249,6 +249,47 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
+.lista-de-contenido {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    max-width: 1600px;
+    margin: 0 auto 50px;
+}
+
+.lista-de-contenido .lista-de-cursos {
+    min-width: 310px;
+    max-width: 550px;
+    -webkit-box-flex: 1;
+    flex: 1 1 0;
+    margin: 0 15px 50px;
+    position: relative;
+}
+
+.lista-de-contenido .lista-de-cursos .curso {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
+    transform: translate3d(0px, 55px, 0px) scale(1);
+    z-index: 1;
+}
+
+.lista-de-contenido .lista-de-cursos .curso .etiqueta {
+    box-shadow: 8px 0 0 0 #20ad2b;
+    background-color: #34ed43;
+
+    height: 100%;
+    width: 30px;
+    border-radius: 0 5px 5px 0;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+
+    line-height: 48px;
+    font-weight: 600;
+    white-space: nowrap;
+    -webkit-box-direction: normal;
+}
+
 @media only screen and (min-width: 650px) {
     .server {
         width: 50%;
@@ -328,6 +369,11 @@ nav ul li a:hover {
     .container {
         width: 80%;
         margin: 0 auto;
+    }
+
+    .container .logo {
+        width: 100px;
+        height: 62px;
     }
 
     .show-desktop {
