@@ -351,12 +351,12 @@ ul.footer-links li a {
 
 #curso-fisica .curso .etiqueta {
     box-shadow: 8px 0 0 0 #5a20c6;
-    background-color: #af51ef;
+    background-color: #a233ec;
 }
 
 #curso-cs .curso .etiqueta {
-    box-shadow: 8px 0 0 0 #257dbc;
-    background-color: #51adef;
+    box-shadow: 8px 0 0 0 #383535;
+    background-color: #696969;
 }
 
 #curso-quimica .curso .etiqueta {
@@ -364,7 +364,7 @@ ul.footer-links li a {
     background-color: #34ed43;
 }
 
-#curso-economia .curso .etiqueta {
+#curso-preuniversitario .curso .etiqueta {
     box-shadow: 8px 0 0 0 #c62121;
     background-color: #ef5151;
 }
