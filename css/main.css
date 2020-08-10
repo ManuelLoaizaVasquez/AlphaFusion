@@ -76,7 +76,7 @@ h1, .subhead {
 
 .blue-container {
     width: 100%;
-    background: #00C2FF;
+    background: #30469C;
     color: #fff;
     margin-top: 15%;
     padding: 4em 0 2em;
@@ -88,7 +88,7 @@ h1, .subhead {
     content: "";
     width: 40px;
     height: 40px;
-    background-color: #00C2FF;
+    background-color: #30469C;
     position: absolute;
     top: -39px;
     right: 0;
@@ -164,7 +164,7 @@ figure {
 
 figcaption {
     font-weight: bold;
-    color: #00C2FF;
+    color: #30469C;
 }
 
 h2 {
@@ -172,7 +172,7 @@ h2 {
 }
 
 .cta {
-    background: #00CC80;
+    background: #30469C;
     width: calc(100% -1em);
     display: block;
     color: #fff;
@@ -273,7 +273,7 @@ ul.footer-links li a {
 
 .lista-de-contenido {
     width: 100%;
-    background: #00C2FF;
+    background: #30469C;
     color: #fff;
     margin-top: 15%;
     padding: 4em 0 2em;
@@ -290,7 +290,7 @@ ul.footer-links li a {
     content: "";
     width: 40px;
     height: 40px;
-    background-color: #00C2FF;
+    background-color: #30469C;
     position: absolute;
     top: -39px;
     right: 0;
