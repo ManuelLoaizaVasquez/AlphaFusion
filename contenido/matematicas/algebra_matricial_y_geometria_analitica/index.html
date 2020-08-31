@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>AlphaFusion</title>
+    <link rel="stylesheet" href="../../../css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="../../../images/logo.png" alt="AlphaFusion" class="logo">
+
+            <nav class="nav-menu">
+                <a href="#" class="hide-desktop">
+                    <img src="../../../images/ham.svg" alt="toggle menu" class="menu" id="menu">
+                </a>
+
+                <ul class="show-desktop hide-mobile" id="nav">
+                    <li id="exit" class="exit-btn hide-desktop"><img src="../../../images/exit.svg" alt="exit menu"></li>
+                    <li><a href="../../../index.html">¿Qué es AlphaFusion?</a></li>
+                    <li><a href="../../../contenido.html">Contenido</a></li>
+                    <li><a href="../../../equipo.html">Conoce al equipo</a></li>
+                    <li><a href="../../../recursos.html">Recursos</a></li>
+                    <li><a href="../../../contactanos.html">Contáctanos</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section>
+            <h1>Álgebra Matricial y Geometría Analítica</h1>
+            <p class="subhead">  Tal y como su nombre lo indica, el curso de Álgebra Matricial y Geometría Analítica, 
+                expone los tópicos fundamentales en geometría y álgebra matricial. 
+                Estos temas constituyen las bases para desarrollar una formación científica o de ingeniero. 
+            </p>
+            <img src="../../../images/scroll.svg" alt="scroll down" class="scroll hide-mobile show-desktop">
+        </section>
+    </div>
+
+    <div class="curso-container">
+        <h2>Programa Analítico</h2>
+            <h4>Geometría plana</h4>
+            <h4>Geometría en el espacio</h4>
+            <h4>Números complejos</h4>
+            <h4>Matrices, determinantes, diagonalización</h4>
+            <h4>Sucesiones e inducción</h4>
+        
+        <h2>Tutores</h2>
+            <h4>Profesores PUCP</h4>
+            
+
+        <h2>Notas de Clase</h2>
+        <a href="https://drive.google.com/file/d/13qgtYStirzPQ65PddbrRpYdO2_3ovM3D/view?usp=sharing">Cálculo en una y varias variables para economistas (Universidad del Pacífico  Vitrub)</a>
+        <br>
+       
+        <h2>Videos</h2>
+            
+        <h2>Lista de Ejercicios</h2>
+        
+
+        <h2>Evaluaciones Pasadas</h2>
+        
+
+        <h2>Referencias</h2>
+            
+        <a href="https://aga.frba.utn.edu.ar/"> AGA (Álgebra y Geometría Analítica) -Universidad Tecnológica Nacional de Buenos Aires</a>
+        <br>
+        <a href="https://drive.google.com/file/d/1f-geewiY2tueQ-pB0Kx6QBBdJbw-_5JD/view?usp=sharing"> Kuhn-Tucker conditions</a>
+        <br>
+        <a href="https://drive.google.com/file/d/1QQnyl609Xj_t7VmflCLRRcvdqSHr86U_/view?usp=sharing"> Teorema envolvente</a>
+        <br>
+        <a href="https://drive.google.com/file/d/1vZeWPz03PkE-c0xi2A32ToE3YutP1rfX/view?usp=sharing"> Derivación implícita</a>
+        <br>
+        <a href="https://drive.google.com/file/d/1wEPyNsD70a05aF9MBozkm3DO_33aieFE/view?usp=sharing"> Álgebra lineal</a>
+        <br>
+        <a href="https://drive.google.com/file/d/19X198s7VQvMFwUOoeyiAcAI4GCq0kxwB/view?usp=sharing"> Inducciones y sucesiones (Universidad del Pacífico)</a>
+        <br>
+        
+        
+        <h2>Bibliografía</h2>
+        <a href="https://drive.google.com/file/d/1i0zTW_0ZHOAdbqH5-WxT61QaK1JR6SRh/view?usp=sharing"> Elementary Linear Algebra - Stanley I, Grossman</a>
+        <br>
+           
+        </div>
+
+    <div class="container">
+        <h2>Empieza a explorar nuestro contenido!</h2>
+        <a href="../../../contenido.html" class="cta">Iniciar</a>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="container">
+                <a href="#">
+                    <img src="../../../images/logo.png" class="logo" alt="logo">
+                </a>
+                <p class="address">Lima<br>Perú</p>
+                <ul class="footer-links">
+                    <li><a href="#">Términos del Servicio</a></li>
+                    <li><a href="#">Políticas de Privacidad</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var menu = document.getElementById('menu');
+        var nav = document.getElementById('nav');
+        var exit = document.getElementById('exit');
+
+        menu.addEventListener('click', function(e) {
+            nav.classList.toggle('hide-mobile');
+            e.preventDefault();
+        });
+
+        exit.addEventListener('click', function(e) {
+            nav.classList.add('hide-mobile');
+            e.preventDefault();
+        });
+    </script>
+</body>
+</html>

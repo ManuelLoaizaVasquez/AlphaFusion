@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>AlphaFusion</title>
+    <link rel="stylesheet" href="../../../css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="../../../images/logo.png" alt="AlphaFusion" class="logo">
+
+            <nav class="nav-menu">
+                <a href="#" class="hide-desktop">
+                    <img src="../../../images/ham.svg" alt="toggle menu" class="menu" id="menu">
+                </a>
+
+                <ul class="show-desktop hide-mobile" id="nav">
+                    <li id="exit" class="exit-btn hide-desktop"><img src="../../../images/exit.svg" alt="exit menu"></li>
+                    <li><a href="../../../index.html">¿Qué es AlphaFusion?</a></li>
+                    <li><a href="../../../contenido.html">Contenido</a></li>
+                    <li><a href="../../../equipo.html">Conoce al equipo</a></li>
+                    <li><a href="../../../recursos.html">Recursos</a></li>
+                    <li><a href="../../../contactanos.html">Contáctanos</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section>
+            <h1>Cálculo diferencial</h1>
+            <p class="subhead">  El curso de cálculo diferencial sienta las bases para desarrollar la mayoría de las ramas en matemática aplicada (cálculo multivariable, ecuaciones diferenciales, cálculo integral, vectorial). Se presentarán los temas principales,
+                 asumiendo que el alumno ya domina los temas presentados a nivel pre-escolar (funciones, geometría básica).
+
+            </p>
+            <img src="../../../images/scroll.svg" alt="scroll down" class="scroll hide-mobile show-desktop">
+        </section>
+    </div>
+
+    <div class="curso-container">
+        <h2>Programa Analítico</h2>
+            <h4>Límites y continuidad</h4>
+            <h4>Derivadas</h4>
+            <h4>Derivación implícita</h4>
+            <h4>Teorema de Rolle y optimización</h4>
+            <h4>Regla del Hospital</h4>
+        
+        <h2>Tutores</h2>
+            <h4>Profesores de la PUCP</h4>
+
+        <h2>Notas de Clase</h2>
+        <a href="https://drive.google.com/file/d/1e95tlkfeG23GHkIdWoGS0ZrQ3h7Eqzi7/view?usp=sharing">PUCP Cálculo 1 - Elton Barrantes, Iris Flores, José Flores</a>
+        <br>
+       
+
+
+
+        <h2>Videos</h2>
+            <a href="https://www.coursera.org/learn/single-variable-calculus"> MOOC : Pennsylvania University</a>
+            <br>
+
+
+        <h2>Lista de Ejercicios</h2>
+        
+
+        <h2>Evaluaciones Pasadas</h2>
+        <a href="https://drive.google.com/file/d/1DM5kkyHB7fo4IqFAVQoTrttg3NCmQLhd/view?usp=sharing"> Exámenes PUCP</a>
+            <br>
+
+
+        <h2>Referencias</h2>
+       
+
+        <h2>Bibliografía</h2>
+            
+            <a href="https://drive.google.com/file/d/1ly_Od7WlQg83QSPqF7-YxwdwKZMhyBSV/view?usp=sharing"> Cálculo en una variable - James Stewart (16 MB)</a>
+            <br>
+
+            <a href="https://drive.google.com/file/d/1FgogV2fUFZG8kL37YWO8DonO4Z9KlboU/view?usp=sharing"> Calculus - Jon Rogawski (15 MB)</a>
+            <br>
+        </div>
+
+    <div class="container">
+        <h2>Empieza a explorar nuestro contenido!</h2>
+        <a href="../../../contenido.html" class="cta">Iniciar</a>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="container">
+                <a href="#">
+                    <img src="../../../images/logo.png" class="logo" alt="logo">
+                </a>
+                <p class="address">Lima<br>Perú</p>
+                <ul class="footer-links">
+                    <li><a href="#">Términos del Servicio</a></li>
+                    <li><a href="#">Políticas de Privacidad</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var menu = document.getElementById('menu');
+        var nav = document.getElementById('nav');
+        var exit = document.getElementById('exit');
+
+        menu.addEventListener('click', function(e) {
+            nav.classList.toggle('hide-mobile');
+            e.preventDefault();
+        });
+
+        exit.addEventListener('click', function(e) {
+            nav.classList.add('hide-mobile');
+            e.preventDefault();
+        });
+    </script>
+</body>
+</html>
