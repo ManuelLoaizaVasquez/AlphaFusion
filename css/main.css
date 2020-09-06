@@ -438,6 +438,11 @@ ul.footer-links li a {
     background-color: #ef5151;
 }
 
+/* https://stackoverflow.com/a/19030696 */
+[data-link] {
+    cursor: pointer;
+}
+
 @media only screen and (min-width: 650px) {
     .server {
         width: 50%;
